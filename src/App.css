@@ -1,7 +1,93 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100vw;
+  min-height: 100vh;
+  background: #282A36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  width: 35.9375rem;
+  height: 28.125rem;
+  border-radius: 0.25rem;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-container h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+form  {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #4D4D4D;
+  width: 60%;
+  padding: 1.31rem 0 0.8rem 0.62rem;
+  box-sizing: border-box;
+  margin: 0.75rem 0;
+  font-size: 1rem;
+  color: #666;
+  &::placeholder {
+    color: #666;
+  }
+}
+
+input[type='submit']{
+  width: 60%;
+  height: 3.125rem;
+  border-radius: 0.3125rem;
+  background: #6272A4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 1.25rem;
+  margin-bottom: 2.56rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1.125rem;
+  box-sizing: border-box;
+  color: #FFF;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.login-container a {
+  text-decoration: underline;
+}
+
+.home-page {
   text-align: center;
 }
 
+.home-page-container h1 {
+  text-align: center;
+  font-size: 10rem;
+}
+
+
+h1 {
+  margin-bottom: 10px; /* Adiciona espaço abaixo do h1 */
+}
+
+button {
+  display: block; /* Faz com que o botão ocupe toda a largura disponível */
+  margin: auto; /* Centraliza o botão */
+}

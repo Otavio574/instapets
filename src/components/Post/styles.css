@@ -1,0 +1,177 @@
+#root {
+    width: 100vw;
+    height: 95vh;
+    background: #e6e7ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.newpost-container{
+    display: flex;
+    width: 575px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+
+
+.new-post-button{
+  width: 235px;
+    height: 50px;
+    background-color: #FFFFFF; 
+    color: #111112;
+    font-family: Poppins;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.new-post-button p{
+    padding-top: 3px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
+.custom-button {
+    background-color: #6952fa; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor do mouse */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  
+    /* Efeito de sombra quando hover */
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  .button-container1{
+    margin-bottom: 100px;
+  }
+  
+  .custom-button2 {
+    background-color: #000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor do mouse */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  
+    /* Efeito de sombra quando hover */
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+ .close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #555;
+  }
+}
+
+.overlay {
+  position: relative; /* Garante que a posição absoluta seja relativa ao overlay */
+  /* Outros estilos para o overlay, se necessário */
+}
+
+
+
+
+.custom-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #6272A4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.post-image-container {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.selected-image{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+.custom-button2{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: #44475A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+}
+
+.image-post-container {
+    width: 600px;
+    height: 520px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.image-post-container img {
+    width: 100%;
+    height: 450px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.caption{
+    display: flex;
+    height: 60px;
+}
+
+.image-caption {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+.time-post {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    width: 100%;
+    color: #000000;
+    margin: 0 10px 0 0;
+}
